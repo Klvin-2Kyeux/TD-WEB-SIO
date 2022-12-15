@@ -5,7 +5,7 @@
 <link rel="stylesheet" href="C:\xampp\htdocs\TD-WEB-SIO\Mon site">
 <title>CV en ligne</title>
 <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Sonsie+One" rel="stylesheet" type="text/css">
-<link rel="stylesheet" href="\TD-WEB-SIO\Mon site\CSS\test.css">
+<link rel="stylesheet" href="..\CSS\test.css">
 <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
 
 </head>
