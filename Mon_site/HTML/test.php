@@ -21,7 +21,7 @@
 <?php
 $menu=yaml_parse_file("../YAML/menu.yaml");
 foreach($menu AS $fichier=>$nom){
-	echo '<li><a href="'.$fichier.'.php">'.$nom.'</a></li>';
+	echo '<li><a href="#'.$fichier.'">'.$nom.'</a></li>';
 }
 ?>
 
@@ -39,11 +39,11 @@ foreach($menu AS $fichier=>$nom){
 
 <?php
 $data=yaml_parse_file("../YAML/Acceuil.yaml");
-echo $data["Page"];
+echo "<h1 id='Acceuil'>".$data["Page"]."</h1>";
 echo '<p>Nom de famille : '.$data["lastname"].'</p>';
 echo '<p>Prénom : '.$data["firstname"].'</p>';
 echo $data["accroche"];
-echo $data["photo"];
+echo "<p>".$data["photo"]."<p>";
 ?>
 <br>
 <br>
@@ -52,7 +52,7 @@ echo $data["photo"];
 <br>
 <?php
 $data=yaml_parse_file("../YAML/A_propos.yaml");
-echo $data["Page"];
+echo "<h1 id='A_propos'>".$data["Page"]."</h1>";
 echo $data["Accroche"];
 echo $data["Paragraphe"];
 echo $data["photo"];
